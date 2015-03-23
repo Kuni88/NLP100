@@ -6,7 +6,7 @@ import sys
 import json
 import codecs
 
-#sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
+sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
 #read file
 file = 'jawiki-country.json'
